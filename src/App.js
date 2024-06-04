@@ -1,10 +1,11 @@
 // Import data
 
 // Import components
-import Sidebar from './sidebar'
-import Searchbar from './searchbar';
-import Directory from './directory';
-import Gallery from './gallery'
+import Sidebar from './Sidebar'
+import Searchbar from './Searchbar';
+import Directory from './Directory';
+import Gallery from './Gallery'
+import Posting from './Posting';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Searchbar />
         <Directory />
         <Gallery />
+        <Posting />
       </div>
     </div>
   );
